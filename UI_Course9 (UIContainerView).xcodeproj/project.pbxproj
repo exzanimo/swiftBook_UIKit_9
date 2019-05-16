@@ -12,6 +12,7 @@
 		311EF9FA228DF5FB00E1484C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311EF9F8228DF5FB00E1484C /* Main.storyboard */; };
 		311EF9FC228DF5FC00E1484C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311EF9FB228DF5FC00E1484C /* Assets.xcassets */; };
 		311EF9FF228DF5FC00E1484C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311EF9FD228DF5FC00E1484C /* LaunchScreen.storyboard */; };
+		311EFA07228E007C00E1484C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311EFA06228E007C00E1484C /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		311EF9FB228DF5FC00E1484C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		311EF9FE228DF5FC00E1484C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		311EFA00228DF5FC00E1484C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311EFA06228E007C00E1484C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				311EF9F4228DF5FB00E1484C /* AppDelegate.swift */,
 				311EF9F6228DF5FB00E1484C /* ViewController.swift */,
+				311EFA06228E007C00E1484C /* DetailVC.swift */,
 				311EF9F8228DF5FB00E1484C /* Main.storyboard */,
 				311EF9FB228DF5FC00E1484C /* Assets.xcassets */,
 				311EF9FD228DF5FC00E1484C /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				311EF9F7228DF5FB00E1484C /* ViewController.swift in Sources */,
 				311EF9F5228DF5FB00E1484C /* AppDelegate.swift in Sources */,
+				311EFA07228E007C00E1484C /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course9--UIContainerView-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "exzaproject.UI-Course9--UIContainerView-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
